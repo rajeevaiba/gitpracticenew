@@ -1,0 +1,19 @@
+    120  sudo apt install apt-transport
+  121  curl -fsSL ubuntu/gpg I sudo apt=key add-
+  122  curl -fsSL ubuntu/gpg I sudo apt=key add
+  123  sudo add-apt
+  124  clear
+  125  sudo add-apt-repository "deb[arch=amd64]
+  126  clear
+  127  cd../
+  128  sudo apt-get remove docker docker-engine docker.io
+  129  sudo apt-get update
+  130  sudo apt install docker.io
+  131  sudo snap install docker
+  132  docker -version
+  133  sudo docker run hello-world
+  134  docker images
+  135  sudo docker images
+  136  sudo docker ps -a
+  137  sudo groupadd docker
+  138  sudo docker ps -a
